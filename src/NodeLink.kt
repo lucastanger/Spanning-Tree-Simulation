@@ -4,7 +4,7 @@
  * This class represents a NodeLink Object
  *
  * @param weight the weight of the NodeLink
- * @param nodes the nodes that build the link
+ * @param node the nodes that build the link
  */
 class NodeLink constructor(weight: Int, node: Node) {
 

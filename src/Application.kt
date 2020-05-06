@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     val repo: GraphRepository = GraphRepository()
 
     repo.computeFile("src/input.txt")
