@@ -6,7 +6,7 @@
  */
 class Graph {
 
-    var graph: HashMap<Node, ArrayList<NodeLink>> = HashMap()
+    var graph: LinkedHashMap<Node, ArrayList<NodeLink>> = LinkedHashMap()
 
     fun createNode(nodeID: Int, name: String) {
         graph[Node(name, nodeID)] = ArrayList()
