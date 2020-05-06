@@ -1,3 +1,8 @@
+/**
+ * Main
+ *
+ * Represents the entry point of the application
+ */
 fun main() {
     val repo: GraphRepository = GraphRepository()
 
