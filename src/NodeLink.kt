@@ -8,7 +8,7 @@
  */
 class NodeLink constructor(weight: Int, node: Node) {
 
-    var weight: Int? = weight
+    var weight: Int = weight
         get() = field?.toInt()
 
     var node: Node = node

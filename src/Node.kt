@@ -8,13 +8,13 @@
  */
 class Node constructor(name: String, nodeID: Int) {
 
-    var name: String? = name
+    var name: String = name
         get() = field.toString()
 
-    var nodeID: Int? = nodeID
+    var nodeID: Int = nodeID
         get() = field?.toInt()
 
-    var weight: Int? = 0
+    var weight: Int = 0
         get() = field?.toInt()
 
     var predecessor: Node? = null

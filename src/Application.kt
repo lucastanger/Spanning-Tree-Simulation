@@ -8,5 +8,7 @@ fun main(args: Array<String>) {
     repo.computeFile("src/input.txt")
 
     GraphAlgo(repo.graph, 10)
+
+    repo.printGraph()
 }
 

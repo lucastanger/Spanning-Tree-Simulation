@@ -10,20 +10,23 @@ class GraphAlgo constructor(graph: Graph, pdu: Int){
     init {
         // Cycle amount
         for (i in 0..pdu) {
-            println("Cycle Nr: $i")
             // Cycle through every node
             graph.graph.entries.forEach(
-                Consumer {
-                    println(it.key)
+                Consumer { node ->
                     // Cycle NodeLinks
-                    it.value.forEach(
-                        Consumer {
-                            println(it)
-                            if (it.weight!! < it.node.weight!!) {
-                                it.node.nodeID = it.weight
+                    node.value.forEach(
+                        Consumer {nodeLink ->
+                            if (node.key.nodeID < nodeLink.node.nodeID) {
+                                nodeLink.node.nodeID = node.key.nodeID
+                                nodeLink.node.weight = (node.key.weight.plus(nodeLink.weight))
+                                nodeLink.node.predecessor = node.key
+                            } else if (node.key.nodeID == nodeLink.node.nodeID) {
+                                if ((node.key.weight.plus(nodeLink.weight)) < nodeLink.weight) {
+                                    nodeLink.weight = node.key.weight + nodeLink.weight
+                                    nodeLink.node.predecessor = node.key
+                                }
                             }
                         }
-
                     )
                 }
             )
