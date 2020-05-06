@@ -3,6 +3,10 @@ class Application {
 }
 
 fun main(args: Array<String>) {
-    GraphRepository().computeFile("src/input.txt")
+    val repo: GraphRepository = GraphRepository()
+
+    repo.computeFile("src/input.txt")
+
+    GraphAlgo(repo.graph, 10)
 }
 
