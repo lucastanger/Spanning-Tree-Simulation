@@ -8,3 +8,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5a913f28fbf54894b6ba0b872816f0d5)](https://app.codacy.com/manual/lucastanger/Spanning-Tree-Simulation?utm_source=github.com&utm_medium=referral&utm_content=lucastanger/Spanning-Tree-Simulation&utm_campaign=Badge_Grade_Dashboard)
 
 Study project for the lecture laboratory network engineering in the 4th semester, created by Luca Stanger.
+
+# Important language dependencies
+The project got developed using Kotlin v1.3
+
+# Ensuring the functionality
+To ensure the algorithm is working properly, the project is covered using coveralls. [![Coverage Status](https://coveralls.io/repos/github/lucastanger/Spanning-Tree-Simulation/badge.svg?branch=master)](https://coveralls.io/github/lucastanger/Spanning-Tree-Simulation?branch=master)
