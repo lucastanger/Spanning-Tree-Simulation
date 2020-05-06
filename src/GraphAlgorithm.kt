@@ -1,11 +1,11 @@
 import java.util.function.Consumer
 
 /**
- * GraphAlgo
+ * GraphAlgorithm
  *
  * This class contains the algorithm logic
  */
-class GraphAlgo constructor(graph: Graph, pdu: Int){
+class GraphAlgorithm constructor(graph: Graph, pdu: Int){
 
     init {
         // Cycle amount
