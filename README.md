@@ -39,13 +39,14 @@ $ mvn package
 ```
 
 # Built With
-..* [Maven](https://maven.apache.org/) - Dependency Management
+* [Kotlin](https://kotlinlang.org/) - Development Language
+* [Maven](https://maven.apache.org/) - Dependency Management
 
 # Versioning
 The project uses [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/lucastanger/Spanning-Tree-Simulation/tags).
 
 # Authors
-..* **Luca Stanger** - Initial work - [Student @ DHBW Stuttgart](https://www.dhbw-stuttgart.de/home/)
+* **Luca Stanger** - Initial work - [Student @ DHBW Stuttgart](https://www.dhbw-stuttgart.de/home/)
 
 # License
 This project is licensed under the **Apache License 2.0** - see the [LICENSE.MD](https://github.com/lucastanger/Spanning-Tree-Simulation/blob/master/LICENSE) file for details
