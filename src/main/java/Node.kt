@@ -12,10 +12,10 @@ class Node constructor(name: String, nodeID: Int) {
         get() = field.toString()
 
     var nodeID: Int = nodeID
-        get() = field?.toInt()
+        get() = field.toInt()
 
     var weight: Int = 0
-        get() = field?.toInt()
+        get() = field.toInt()
 
     var predecessor: Node? = null
 
