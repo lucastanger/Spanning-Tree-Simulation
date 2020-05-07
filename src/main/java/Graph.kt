@@ -1,6 +1,5 @@
 /**
  * Graph<T>
- *
  * This class represents the graph
  * @contains Node, NodeLink
  */

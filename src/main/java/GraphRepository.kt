@@ -3,7 +3,6 @@ import java.util.regex.Pattern
 
 /**
  * GraphRepository
- *
  * This class reads the input files and converts them into a HashMap
  */
 class GraphRepository {

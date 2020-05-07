@@ -2,7 +2,6 @@ import java.util.function.Consumer
 
 /**
  * GraphAlgorithm
- *
  * This class contains the algorithm logic
  */
 class GraphAlgorithm constructor(graph: Graph, pdu: Int){

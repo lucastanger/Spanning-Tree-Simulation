@@ -1,8 +1,6 @@
 /**
  * Node
- *
  * This class represents a Node Object
- *
  * @param name the name of the node
  * @param nodeID the identifier of the node
  */
