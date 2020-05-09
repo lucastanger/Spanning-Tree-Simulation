@@ -1,3 +1,9 @@
 language: java
+install: true
+
+os: linux
+dist: trusty
 jdk: openjdk14
-install: mvn -U clean install -D skipTests=true -D maven.javadoc.skip=true -B -V
+
+script:
+  - ./gradlew build --scan -s
