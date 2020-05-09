@@ -1,5 +1,5 @@
- Graph beispiel {
-    // Node IDs
+ com.lucastanger.Graph beispiel {
+    // com.lucastanger.Node IDs
     A = 5;
     B = 1;
     C = 3;

@@ -1,7 +1,9 @@
+package com.lucastanger
+
 import java.util.function.Consumer
 
 /**
- * GraphAlgorithm
+ * com.lucastanger.GraphAlgorithm
  * This class contains the algorithm logic
  */
 class GraphAlgorithm constructor(graph: Graph, pdu: Int){
@@ -26,9 +28,7 @@ class GraphAlgorithm constructor(graph: Graph, pdu: Int){
                                 }
                             }
                         }
-                    )
-                }
-            )
-        }
+                    )}
+            )}
     }
 }

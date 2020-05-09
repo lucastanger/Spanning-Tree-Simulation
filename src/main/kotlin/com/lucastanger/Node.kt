@@ -1,6 +1,8 @@
+package com.lucastanger
+
 /**
- * Node
- * This class represents a Node Object
+ * com.lucastanger.Node
+ * This class represents a com.lucastanger.Node Object
  * @param name the name of the node
  * @param nodeID the identifier of the node
  */

@@ -1,14 +1,18 @@
+package com.lucastanger
+
+import java.util.*
+
 /**
- * Graph<T>
+ * com.lucastanger.Graph
  * This class represents the graph
- * @contains Node, NodeLink
+ * @contains com.lucastanger.Node, com.lucastanger.NodeLink
  */
 class Graph {
 
     var graph: LinkedHashMap<Node, ArrayList<NodeLink>> = LinkedHashMap()
 
     /**
-     * CreateNode: Creates a Node inside the graph
+     * CreateNode: Creates a com.lucastanger.Node inside the graph
      * @param name
      * @param nodeID
      * @return void
@@ -19,7 +23,7 @@ class Graph {
     }
 
     /**
-     * CreateNodeLink: Creates a NodeLink inside the graph
+     * CreateNodeLink: Creates a com.lucastanger.NodeLink inside the graph
      * @param nodeName
      * @param weight
      * @param nodeLinkName
@@ -27,13 +31,18 @@ class Graph {
      * @author Luca Stanger
      */
     fun createNodeLink(nodeName: String, weight: Int, nodeLinkName: String) {
-        graph[getNodeByName(nodeName)]?.add(NodeLink(weight, getNodeByName(nodeLinkName)))
+        graph[getNodeByName(nodeName)]?.add(
+            NodeLink(
+                weight,
+                getNodeByName(nodeLinkName)
+            )
+        )
     }
 
     /**
      * getNodeByName: searches the graph for the first node containing the submitted name
      * @param name
-     * @return Node
+     * @return com.lucastanger.Node
      * @author Luca Stanger
      */
     private fun getNodeByName(name: String): Node {
@@ -43,7 +52,7 @@ class Graph {
     /**
      * getNodeById: searches the graph for the first node containing the submitted id
      * @param nodeID
-     * @return Node
+     * @return com.lucastanger.Node
      * @author Luca Stanger
      */
     fun getNodeByID(nodeID: Int): Node {

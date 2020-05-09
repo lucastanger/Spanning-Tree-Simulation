@@ -1,8 +1,10 @@
+package com.lucastanger
+
 import java.io.File
 import java.util.regex.Pattern
 
 /**
- * GraphRepository
+ * com.lucastanger.GraphRepository
  * This class reads the input files and converts them into a HashMap
  */
 class GraphRepository {
@@ -64,7 +66,7 @@ class GraphRepository {
     }
 
     /**
-     * PrintGraph: Prints the Graph to the console
+     * PrintGraph: Prints the com.lucastanger.Graph to the console
      * @return void
      * @author Luca Stanger
      */
