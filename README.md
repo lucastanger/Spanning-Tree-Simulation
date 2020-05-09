@@ -27,21 +27,19 @@ Alternatively, on OS X you can install the compiler via Homebrew.
 $ brew update
 $ brew install kotlin
 ```
-## Maven
-To have all external project packages installed, use the following maven steps:
+## Gradle
+To have all external project packages installed, use the following gradle steps:
 ```
-$ mvn install
-$ mvn compile
+$ gradle jar
 ```
-or without .class files:
+Start the jar located in build/libs
 ```
-$ mvn install
-$ mvn package
+$ java -jar Spanning-Tree-Simulation.jar
 ```
 
 # Built With
 * [Kotlin](https://kotlinlang.org/) - Development Language
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Gradle](https://gradle.org/) - Dependency & Build Management
 
 # Versioning
 The project uses [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/lucastanger/Spanning-Tree-Simulation/tags).
