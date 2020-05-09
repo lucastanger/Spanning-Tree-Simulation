@@ -6,4 +6,4 @@ dist: trusty
 jdk: openjdk14
 
 script:
-  - gradle jar
+  - gradle jar --stacktrace
