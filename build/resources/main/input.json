@@ -1,0 +1,84 @@
+{
+  "node": [
+    {
+      "name": "A",
+      "nodeID": 5
+    },
+    {
+      "name": "B",
+      "nodeID": 1
+    },
+    {
+      "name": "C",
+      "nodeID": 3
+    },
+    {
+      "name": "D",
+      "nodeID": 7
+    },
+    {
+      "name": "E",
+      "nodeID": 6
+    },
+    {
+      "name": "F",
+      "nodeID": 4
+    }
+  ],
+  "nodeLink": [
+    {
+      "parentNode": [
+        "A", "B"
+      ],
+      "weight": 10
+    },
+    {
+      "parentNode": [
+        "A", "C"
+      ],
+      "weight": 10
+    },
+    {
+      "parentNode": [
+        "B", "D"
+      ],
+      "weight": 15
+    },
+    {
+      "parentNode": [
+        "B", "E"
+      ],
+      "weight": 10
+    },
+    {
+      "parentNode": [
+        "C", "D"
+      ],
+      "weight": 3
+    },
+    {
+      "parentNode": [
+        "C", "E"
+      ],
+      "weight": 10
+    },
+    {
+      "parentNode": [
+        "D", "E"
+      ],
+      "weight": 2
+    },
+    {
+      "parentNode": [
+        "D", "F"
+      ],
+      "weight": 10
+    },
+    {
+      "parentNode": [
+        "E", "F"
+      ],
+      "weight": 2
+    }
+  ]
+}
